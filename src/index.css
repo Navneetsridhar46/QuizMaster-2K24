@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
+}
+
+.quizbox{
+  transition: transform 0.6s;
+}
+
+.quizbox:hover{
+  color: whitesmoke;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+  background-color: rgba(0, 0, 0, 0.744)
+  
+}
+.btn1{
+  border: 1px solid white;
+  width: 60px;
+}
+
+ul li{
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding-left: 15px;
+  border: 1px solid #686868;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+ul li:hover{
+  border: 2px solid goldenrod;
+}
+.container .Correct{
+  background-color: #00d397;
+}
+.container .Wrong{
+  background-color: #fd6666;
+}
